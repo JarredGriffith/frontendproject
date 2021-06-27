@@ -23,6 +23,12 @@ a, a:visited, a:hover { // this is removing all the styles from the links like u
     
 } 
 
+//spacing 
+.container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
 //flex box
 .Flex {
     display: flex;

@@ -19,17 +19,18 @@
 
 
   <header class="header">
+    <div class="overlay"></div>
     <!--flex is a help class-->
-    <nav class="Flex Flex-jc-sb Flex-ai-c">
+    <nav class="Flex Flex-jc-sb Flex-ai-c container">
       <a href="/" class="header__logo"> <img src="images/logo.svg" alt="logo"> </a>
-      <a href="#" class="header__Hambuger hide_for_desktop">
+      <a href="#" id="btnhambuger" class="header__Hambuger hide_for_desktop">
         <span></span>
         <span></span>
         <span></span>
       </a>
 
       <!--fast way to make items is Itemname*how_manay_you_want-->
-        <div class="header__links hide_for_mobile">
+        <div  class="header__links hide_for_mobile">
           <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Contact</a>
@@ -40,6 +41,13 @@
         <a href="#" class="button header__cta hide_for_mobile">Request Invite</a>
         <!-- <button type="button">Request Invite</button> -->
   </nav>
+  <div class="header__menu">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Blog</a>
+    <a href="#">Careers</a>
+  </div>
   </header>
 
   <!--
